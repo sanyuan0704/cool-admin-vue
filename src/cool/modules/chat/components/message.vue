@@ -494,7 +494,7 @@ export default {
 					.content {
 						background-color: #fff;
 
-						/deep/.el-image {
+						::v-deep.el-image {
 							display: block;
 							border-radius: 6px;
 							max-width: 200px;

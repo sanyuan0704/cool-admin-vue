@@ -79,7 +79,7 @@ export default {
 
 <style lang="scss" scoped>
 .home {
-	/deep/.card {
+	::v-deep.card {
 		background-color: #fff;
 		border-radius: 5px;
 		margin-bottom: 15px;

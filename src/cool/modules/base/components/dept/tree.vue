@@ -360,7 +360,7 @@ export default {
 		}
 	}
 
-	/deep/.el-tree-node__content {
+	::v-deep.el-tree-node__content {
 		height: 36px;
 	}
 
@@ -387,7 +387,7 @@ export default {
 		overflow-y: auto;
 		overflow-x: hidden;
 
-		/deep/.el-tree-node__content {
+		::v-deep.el-tree-node__content {
 			margin: 0 5px;
 		}
 	}

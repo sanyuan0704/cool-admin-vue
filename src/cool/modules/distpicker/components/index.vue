@@ -59,7 +59,7 @@ export default {
 
 <style lang="scss" scoped>
 .cl-distpicker {
-	/deep/.el-cascader {
+	::v-deep.el-cascader {
 		width: 100%;
 	}
 }

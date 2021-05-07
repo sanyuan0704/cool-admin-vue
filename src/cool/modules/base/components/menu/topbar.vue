@@ -77,7 +77,7 @@ export default {
 .cl-menu-topbar {
 	margin-right: 10px;
 
-	/deep/.el-menu {
+	::v-deep.el-menu {
 		height: 50px;
 		background: transparent;
 		border-bottom: 0;
@@ -101,7 +101,7 @@ export default {
 				color: $color-primary;
 			}
 
-			/deep/.icon-svg {
+			::v-deep.icon-svg {
 				margin-right: 5px;
 			}
 		}

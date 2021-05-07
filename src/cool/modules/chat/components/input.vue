@@ -287,7 +287,7 @@ export default {
 					opacity: 0.7;
 				}
 
-				/deep/ img {
+				::v-deep img {
 					height: 26px;
 					width: 26px;
 				}

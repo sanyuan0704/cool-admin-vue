@@ -768,12 +768,12 @@ export default {
 
 <style lang="scss" scoped>
 .vue-cron {
-	/deep/ .el-tabs {
+	::v-deep .el-tabs {
 		box-shadow: none;
 	}
 
 	&__item {
-		/deep/ .el-row {
+		::v-deep .el-row {
 			min-height: 32px;
 			line-height: 32px;
 			margin-bottom: 10px;

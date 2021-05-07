@@ -559,7 +559,7 @@ export default {
 
 	&--default {
 		&:not(.is-drag) {
-			/deep/.el-upload {
+			::v-deep.el-upload {
 				display: flex;
 				align-items: center;
 				justify-content: center;
@@ -638,7 +638,7 @@ export default {
 	}
 
 	&--picture-card {
-		/deep/.el-upload {
+		::v-deep.el-upload {
 			background-color: #fff;
 
 			.cl-upload__icon {

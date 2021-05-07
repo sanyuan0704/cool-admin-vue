@@ -435,7 +435,7 @@ export default {
 			top: calc(50% - 90px);
 			left: calc(50% - 160px);
 
-			/deep/.cl-upload {
+			::v-deep.cl-upload {
 				display: flex;
 				flex-direction: column;
 				justify-content: center;

@@ -81,7 +81,7 @@ export default {
 .cl-route-nav {
 	white-space: nowrap;
 
-	/deep/.el-breadcrumb {
+	::v-deep.el-breadcrumb {
 		&__inner {
 			font-size: 13px;
 			padding: 0 10px;

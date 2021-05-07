@@ -60,7 +60,7 @@ export default {
 .cl-menu-file {
 	width: 100%;
 
-	/deep/ .el-select {
+	::v-deep .el-select {
 		width: 100%;
 	}
 
